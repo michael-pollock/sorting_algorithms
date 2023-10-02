@@ -1,0 +1,49 @@
+t(n) = actual runtime in seconds | T(n) = calculated runtime | t(n)/T(n) = ratio
+
+Sorting Type, n, t(n), T(n), t(n)/T(n)
+BubbleSort:,5000,0.064,25,25.6
+BubbleSort:,10000,0.249,100,24.9
+BubbleSort:,15000,0.568,225,25.2444
+BubbleSort:,20000,1.044,400,26.1
+BubbleSort:,25000,1.692,625,27.072
+BubbleSort:,30000,2.452,900,27.2444
+BubbleSort:,35000,3.323,1225,27.1265
+BubbleSort:,40000,4.504,1600,28.15
+BubbleSort:,45000,5.756,2025,28.4247
+BubbleSort:,50000,7.305,2500,29.22
+
+Sorting Type, n, t(n), T(n), t(n)/T(n)
+InsertionSort:,8000,0.086,64,13.4375
+InsertionSort:,16000,0.301,256,11.7578
+InsertionSort:,24000,0.669,576,11.6146
+InsertionSort:,32000,1.211,1024,11.8262
+InsertionSort:,40000,1.963,1600,12.2688
+InsertionSort:,48000,2.78,2304,12.066
+InsertionSort:,56000,3.78,3136,12.0536
+InsertionSort:,64000,4.904,4096,11.9727
+InsertionSort:,72000,7.304,5184,14.0895
+InsertionSort:,80000,7.607,6400,11.8859
+
+Sorting Type, n, t(n), T(n), t(n)/T(n)
+MergeSort,300000,0.218,378.346,57.6192
+MergeSort,600000,0.435,798.281,54.4921
+MergeSort,900000,0.633,1233.91,51.3002
+MergeSort,1200000,0.821,1679.74,48.8766
+MergeSort,1500000,1.05,2133.15,49.2231
+MergeSort,1800000,1.311,2592.59,50.5671
+MergeSort,2100000,1.517,3057.06,49.6228
+MergeSort,2400000,1.713,3525.84,48.5842
+MergeSort,2700000,1.939,3998.37,48.4948
+MergeSort,3000000,2.127,4474.24,47.5388
+
+Sorting Type, n, t(n), T(n), t(n)/T(n)
+Quicksort:,1000000,0.216,1381.55,15.6346
+Quicksort:,2000000,0.496,2901.73,17.0932
+Quicksort:,3000000,0.9,4474.24,20.1152
+Quicksort:,4000000,1.374,6080.72,22.596
+Quicksort:,5000000,1.912,7712.47,24.791
+Quicksort:,6000000,2.517,9364.36,26.8785
+Quicksort:,7000000,3.238,11033,29.3483
+Quicksort:,8000000,4.059,12716,31.9205
+Quicksort:,9000000,4.927,14411.5,34.1881
+Quicksort:,10000000,5.859,16118.1,36.3504
